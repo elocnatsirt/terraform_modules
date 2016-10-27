@@ -1,15 +1,15 @@
 variable "cidr_block" {
-	default = "10.0.0.0/16"
+  default = "10.0.0.0/16"
 }
 variable "instance_tenancy" {
-	default = "default"
+  default = "default"
 }
 variable "enable_dns_support" {
-	default = "true"
+  default = "true"
 }
 variable "enable_dns_hostnames" {
-	default = "false"
+  default = "false"
 }
 variable "enable_classiclink" {
-	default = "false"
+  default = "false"
 }

@@ -1,20 +1,20 @@
 variable "vpc_id" {}
 variable "propagating_vgws" {
-	default = []
+  default = []
 }
 variable "cidr_block" {}
 variable "gateway_id" {
-	default = ""
+  default = ""
 }
 variable "nat_gateway_id" {
-	default = ""
+  default = ""
 }
 variable "instance_id" {
-	default = ""
+  default = ""
 }
 variable "vpc_peering_connection_id" {
-	default = ""
+  default = ""
 }
 variable "network_interface_id" {
-	default = ""
+  default = ""
 }

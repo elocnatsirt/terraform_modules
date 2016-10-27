@@ -5,6 +5,6 @@ resource "aws_vpc" "vpc" {
   enable_dns_hostnames = "${var.enable_dns_hostnames}"
   enable_classiclink   = "${var.enable_classiclink}"
   tag {
-  	Created_With = "terraform"
+    Created_With = "terraform"
   }
 }
